@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "adipocere",
+	"version": "${version}",
+	"name": "adipocere",
+	"description": "Bury yourself!",
+	"authors": [
+		"Wawwior"
+	],
+	"contact": {
+		"sources": "https://github.com/Wawwior/adipocere"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/adipocere/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.wawwior.adipocere.Adipocere"
+		],
+		"fabric-datagen": [
+			"me.wawwior.adipocere.AdipocereDataGenerator"
+		]
+	},
+	"mixins": [
+		"adipocere.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
