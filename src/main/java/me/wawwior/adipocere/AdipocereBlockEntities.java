@@ -1,7 +1,7 @@
 package me.wawwior.adipocere;
 
-import me.wawwior.adipocere.block_entities.CoffinBlockEntity;
-import me.wawwior.adipocere.block_entities.TombstoneBlockEntity;
+import me.wawwior.adipocere.block.entity.CoffinBlockEntity;
+import me.wawwior.adipocere.block.entity.TombstoneBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;

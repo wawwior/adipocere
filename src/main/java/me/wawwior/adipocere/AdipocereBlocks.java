@@ -1,8 +1,8 @@
 
 package me.wawwior.adipocere;
 
-import me.wawwior.adipocere.blocks.CoffinBlock;
-import me.wawwior.adipocere.blocks.TombstoneBlock;
+import me.wawwior.adipocere.block.CoffinBlock;
+import me.wawwior.adipocere.block.TombstoneBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;

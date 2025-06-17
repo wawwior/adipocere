@@ -1,4 +1,4 @@
-package me.wawwior.adipocere.block_entities;
+package me.wawwior.adipocere.block.entity;
 
 import me.wawwior.adipocere.AdipocereBlockEntities;
 import net.minecraft.block.BlockState;
