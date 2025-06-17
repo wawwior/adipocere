@@ -23,5 +23,6 @@ public class AdipocereBlockEntities {
   	return Registry.register(Registries.BLOCK_ENTITY_TYPE, id, FabricBlockEntityTypeBuilder.<T>create(entityFactory, blocks).build());
   }
 
-	public static final void initialize() {}
+	@SuppressWarnings("EmptyMethod")
+    public static void initialize() {}
 }

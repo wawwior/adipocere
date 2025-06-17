@@ -21,5 +21,6 @@ public class AdipocereItems {
 		return Registry.register(Registries.ITEM, id, item);
 	}  
 
-	public static final void initialize() {}
+	@SuppressWarnings("EmptyMethod")
+    public static void initialize() {}
 }

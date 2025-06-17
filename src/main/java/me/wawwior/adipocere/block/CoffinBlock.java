@@ -4,7 +4,6 @@ import me.wawwior.adipocere.block.entity.CoffinBlockEntity;
 import me.wawwior.adipocere.block.enums.CoffinPart;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.block.enums.BedPart;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;

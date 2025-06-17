@@ -40,6 +40,7 @@ public class AdipocereBlocks {
 		return Registry.register(Registries.BLOCK, id, block);
 	}
 
-	public static final void initialize() {}
+	@SuppressWarnings("EmptyMethod")
+    public static void initialize() {}
 
 }

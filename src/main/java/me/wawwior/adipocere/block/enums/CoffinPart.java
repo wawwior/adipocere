@@ -10,7 +10,7 @@ public enum CoffinPart implements StringIdentifiable {
 
     private final String name;
 
-    private CoffinPart(String name) {
+    CoffinPart(String name) {
         this.name = name;
     }
 
