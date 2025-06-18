@@ -12,7 +12,7 @@ import java.util.Optional;
 
 public class AdipocereModelProvider extends FabricModelProvider {
 
-    public static final Model COFFIN_BASE = block("coffin_base", TextureKey.TOP, TextureKey.BOTTOM, TextureKey.END, TextureKey.SIDE);
+    public static final Model COFFIN_BASE = block("coffin_base", TextureKey.ALL);
 
     public AdipocereModelProvider(FabricDataOutput output) {
         super(output);
@@ -36,18 +36,12 @@ public class AdipocereModelProvider extends FabricModelProvider {
 
     private static TextureMap coffinHeadMap() {
         return new TextureMap()
-                .put(TextureKey.TOP, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_head_top"))
-                .put(TextureKey.BOTTOM, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_head_bottom"))
-                .put(TextureKey.END, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_head_end"))
-                .put(TextureKey.SIDE, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_head_side"));
+                .put(TextureKey.ALL, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_head"));
     }
 
     private static TextureMap coffinFootMap() {
         return new TextureMap()
-                .put(TextureKey.TOP, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_foot_top"))
-                .put(TextureKey.BOTTOM, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_foot_bottom"))
-                .put(TextureKey.END, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_foot_end"))
-                .put(TextureKey.SIDE, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_foot_side"));
+                .put(TextureKey.ALL, ModelIds.getBlockSubModelId(AdipocereBlocks.COFFIN, "_foot"));
     }
 
     private static BlockStateSupplier createCoffinStates(Identifier headModel, Identifier footModel) {
